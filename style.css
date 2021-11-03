@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yeseva One", cursive;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+
+header {
+  background-image: url("./img/Section_Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: linear-gradient(to top, #000 50%);
+}
+header nav .nav-section {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+header nav .nav-section .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  text-decoration: none;
+}
+header nav .nav-section .links li a {
+  font-family: "Lato", sans-serif;
+  color: #f1f1f1;
+}
+header nav .nav-section .contact-links {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+header .first-section {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+header .first-section .container {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+}
+header .first-section .container .title {
+  font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #f1f1f1;
+}
+header .first-section .container img {
+  margin-top: 60px;
+  width: 230px;
+}
+header .first-section .container .box-btn {
+  display: flex;
+  gap: 30px;
+}
+header .first-section .container .box-btn .btn {
+  padding: 20px 30px;
+  font-family: "Lato", sans-serif;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+header .first-section .container .box-btn .btn.black {
+  border: 1px solid #020202;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .first-section .container .box-btn .btn.white {
+  border: 1px solid #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
